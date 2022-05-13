@@ -91,3 +91,7 @@ font color:#343a40
 .open .number, .open .text{
     color: var(--main-color);
 }
+
+.open .icon{
+    transform: rotate(180deg);
+}
