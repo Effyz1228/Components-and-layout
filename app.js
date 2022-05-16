@@ -7,3 +7,6 @@ for(let btn of btns){
         item.classList.toggle('open');
         });
     }
+
+
+    

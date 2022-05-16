@@ -185,3 +185,33 @@ img{
 .dots :first-child{
     background-color: var(--main-color);
 }
+
+/* table component  */
+table {
+    width: 800px;
+    margin: 30px auto;
+    /* border: 1px solid #343a40; */
+    border-collapse: collapse;
+    font-size: 18px;
+}
+
+td, th{
+    /* border: 1px solid #343a40; */
+    padding: 16px 24px;
+    text-align: left;
+}
+
+thead th{
+    background-color: var(--main-color);
+    color: #fff;
+    /* set width for each column */
+    width: 25%;
+}
+
+tbody tr:nth-child(odd){
+    background-color:#f8f9fa ;
+}
+
+tbody tr:nth-child(even){
+    background-color:#e9ecef;
+}
